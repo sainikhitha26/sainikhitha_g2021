@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a table</title>
+    <style>
+        .main{
+            background-image: url(https://img.freepik.com/free-photo/cutlery-near-twig-leaves_23-2147811214.jpg?size=626&ext=jpg&ga=GA1.1.313117058.1703054968&semt=ais);
+            background-size: cover;
+            height: 100vh;
+           
+        }
+        input{
+            padding: 5px;
+        
+        }
+        label{
+            color: lightblue;
+            font-size: 30px;
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+        }
+        .main h1{
+            text-align: center;
+            font-size: 50px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: brown;
+        }
+        form{
+            position: absolute;
+            top: 100px;
+        }
+        button{
+            padding: 10px;
+            color: purple;
+            background-color: lightgreen;
+        }
+        button:hover{
+            color:white;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="main"> 
+        <h1>Table Reservation</h1>
+        <form action="" style="border: 2px solid transparent;width: fit-content;padding: 30px 40px;border-radius: 10px;">
+        
+        <label for="">NAME</label><br>
+        <input type="First Name" placeholder="First Name">
+        <input type="Last name" placeholder="Last Name"><br>
+        <label for="">Email</label><br>
+        <input type="Email" placeholder="Email"><br>
+        <label for="">Phone Number</label><br>
+        <input type="number" placeholder="### ### ####"><br>
+        <label for="">Reservation date</label><br>
+        <input type="date" placeholder="MM/DD/YYYY"><br>
+        <label for="">Reservation time</label><br>
+        <input type="time" ><br>
+        <label for="">How many guests will you be with?</label><br>
+        <input type="number" placeholder="number of guests"><br>
+        <label for="">Note</label><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br>
+        <button>Submit</button>
+        </form>
+</div>
+   
+</body>
+</html>

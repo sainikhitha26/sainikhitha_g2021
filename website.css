@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: transparent;
+
+}
+
+.nav .links ul{
+    list-style: none;
+    display: flex;
+}
+.nav .links ul li{
+    margin: 0px 30px;
+    
+
+}
+.nav .links ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: aliceblue;
+}
+.nav .links ul li a:hover{
+    color: green;
+    transition: .2s;
+}
+.btn-div{
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 1px solid rgb(228, 224, 234);
+    background-color: transparent;
+    border-radius: 5px;
+    color: rgb(246, 251, 246);
+    transition: .5s;    
+}
+.btn-div a{
+    text-decoration: none;
+    color: white;
+}
+.btn-div:hover{
+    background-color: green;
+    color: white;
+    transition: .5s;
+}
+#sec1{
+    height: 100vh;
+    background-image: url(https://img.freepik.com/premium-photo/asian-food-asianstyle-kung-pao-chicken-with-rice-green-onions-kung-pao-chicken-gong-bao-ji-ding_235573-1669.jpg?size=626&ext=jpg&ga=GA1.1.313117058.1703054968&semt=ais);
+    background-size: cover;
+}
+.content-heading{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+   
+}
+.content-heading img{
+    position: absolute;
+    left: 10px;
+}
+.content{
+    width: 500px;
+    text-align: center ;
+    text-transform: capitalize;
+   
+}
+.content a{
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 1px solid rgb(228, 224, 234);
+    background-color: transparent;
+    border-radius: 5px;
+    color: rgb(246, 251, 246);
+    transition: .5s;
+    text-decoration: none;
+}
+.content a:hover{
+    background-color: orange;
+    color: white;
+    transition: .5s;
+}
+.content h1{
+    font-size: 50px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.content p{
+    color: rgb(247, 241, 241);
+   
+    margin: 15px 0px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.line{
+    width: 40%;
+    margin-top: 20px;
+    text-align: center;
+}
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+}
+.card{
+    width: 270px;
+    background:linear-gradient(#6a85b6,#bac8e0);
+    padding: 24px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 10px 15px;
+    box-shadow: 2px 3px 5px gray;
+}
+.card i{
+    color: black;
+    width: 100%;
+    
+    
+}
+.card h2{
+    margin: 0px 0px 8px;
+    font: 20px;
+    font-family: sans-serif;
+    color:#0f172b;
+}
+.card p{
+    margin: 0px 0px 16px;
+    font: 18px;
+    color: #6c6b6b;
+}
+#sec3{
+    height: 95vh;
+    background: linear-gradient(violet,purple);
+}
+.about{
+    padding: 20px;
+    display: flex;
+}
+.about .content{
+    padding: 50px;
+}
+.about .content h1{
+    font-family: 'Dancing Script', cursive;
+    text-transform: lowercase;
+    color: orange;
+    font-size: 60px;
+    margin: 0px 0px 8px;
+    position: absolute;
+    left: 1500px;
+    top: 1370px;
+}
+.about .content h2{
+    padding: 40px;
+    position: absolute;
+    top: 1400px;
+    left: 1400px;
+    font-size: 30px;
+}
+.about .content h2 i{
+    color: orange;
+    font-size: 25px;
+}
+.about .content p{
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px 0px 24px;
+    position: absolute;
+    left: 1300px;
+    top: 1500px;
+    line-height: 50px;
+}
+
+#sec4{
+    height: 34vh;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: bisque;
+}
+
+.menu img{
+    width: 400px;
+    background: #0a152f66;
+    }
+.menu img:hover{
+        filter: blur(2px);
+}  
+.cuisine1 a{
+    text-decoration: none;
+    font-size: 50px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 1px solid transparent;
+    background-color:transparent;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    top: 2300px;
+    left: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+}     
+.cuisine2 a{
+    text-decoration: none;
+    font-size: 50px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 1px solid transparent;
+    background-color:transparent;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    top: 2300px;
+    left: 580px;
+    font-family: Arial, Helvetica, sans-serif;
+}     
+.cuisine3 a{
+    text-decoration: none;
+    font-size: 50px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 1px solid transparent;
+    background-color:transparent;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    top: 2300px;
+    left: 1075px;
+    font-family: Arial, Helvetica, sans-serif;
+}     
+.cuisine4 a{
+    text-decoration: none;
+    font-size: 50px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 1px solid transparent;
+    background-color:transparent;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    top: 2300px;
+    left: 1570px;
+    font-family: Arial, Helvetica, sans-serif;
+}     
+#contactus{
+    height: 100vh;
+    background-image: url(https://img.freepik.com/free-photo/workplace-with-smartphone-notebook-black-table-top-view_144627-24858.jpg?size=626&ext=jpg&ga=GA1.1.313117058.1703054968&semt=ais);
+    background-size: cover;
+   
+}
+#contactus h1{
+    color: orange;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 20px;
+}
+#contactus h3{
+    color: white;
+    position: absolute;
+    left: 750px;
+    top: 2620px;;
+    font-size: 60px;
+}
+#contactus .contact{
+    position:absolute;
+    left: 200px;
+    top: 2800px;
+}
+#contactus .contact h2{
+    color: orange;
+}
+#contactus .contact i{
+    color: orange;
+}
+#contactus .contact p{
+    color: silver;
+}
+#contactus .general{
+    position: absolute;
+    left: 900px;
+    top: 2800px;
+
+}
+#contactus .technical{
+    position: absolute;
+    left: 1620px;
+    top: 2800px;
+}
+#contactus .general h2{
+    color: orange;
+}
+#contactus .general i{
+    color: orange;
+}
+#contactus .general  p{
+    color: silver;
+}
+#contactus .technical h2{
+    color: orange;
+}
+#contactus .technical i{
+    color: orange;
+}
+#contactus .technical p{
+    color: silver;
+} 
+#contactus .form input{
+    padding: 5px;
+   
+}
+#contactus .form{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 850px;
+    top: 2900px;
+    color: white;
+}
+#contactus  .mapouter{
+    position:relative;
+    text-align:right;
+    height:510px;
+    width:770px;
+}
+#contactus .mapouter .gmap_cavas{
+    overflow:hidden;
+    background:none!important;
+    height:510px;
+    width:770px;
+}
+#contactus .mapouter{
+    position: absolute;
+    top: 2900px;
+    left: 1200px;
+}
+#footer{
+    height: 20vh;
+    background-color: black;
+}
+#footer .socialmedia{
+   padding: 20px;
+    border: 1px solid transparent;
+    color: white;
+    display: flex;
+    position: absolute;
+    left: 870px;
+}
+#footer .socialmedia i{
+    padding: 30px;
+    font-size: 30px;
+}
+#footer p{
+    color: white;
+    position: absolute;
+    left: 800px;
+    top: 3625px;
+    font-size: 20px;
+}
+#footer .socialmedia i:hover{
+    color: white;
+}
